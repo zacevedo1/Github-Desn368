@@ -1,0 +1,12 @@
+.class {
+    background-color: pink; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#second {
+    color: blue; font-size: 36px;
+}
+#forth {
+    background-color:#55eb55; font-size: 24px; font-weight: bold; 
+}
+#cool {
+    font-size: 24px;
+}
