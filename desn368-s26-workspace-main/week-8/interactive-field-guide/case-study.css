@@ -19,7 +19,7 @@ body {
 .sidebar {
   background: #6C0C1E;
   padding: 2rem 1.5rem;
-  width: 210px;
+  width: 300px;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -27,8 +27,18 @@ body {
   overflow-y: auto;
 }
 
+.container:has(#design-decisions:target) .sidebar a[href="#design-decisions"],
+.container:has(#technical-challenges:target) .sidebar a[href="#technical-challenges"],
+.container:has(#responsive-strategy:target) .sidebar a[href="#responsive-strategy"],
+.container:has(#learning-moments:target) .sidebar a[href="#learning-moments"],
+.container:has(#future-improvements:target) .sidebar a[href="#future-improvements"] {
+    background-color: #327031;
+    color: #A1F6A0;
+}
+
 .sidebar a {
-  color: white;
+  font-family: 'Bona Nova SC', serif;
+  color: #FFFBCE;;
   text-decoration: none;
   padding: 0.3rem 0.6rem;
   border-radius: 8px;

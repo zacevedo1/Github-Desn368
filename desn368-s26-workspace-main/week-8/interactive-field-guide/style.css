@@ -13,7 +13,7 @@
 .sidebar {
   background: #6C0C1E;
   padding: 2rem 1.5rem;
-  width: 210px;
+  width: 300px;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -22,7 +22,8 @@
 }
 
 .sidebar a {
-  color: white;
+  font-family: 'Bona Nova SC', serif;
+  color: #FFFBCE;
   text-decoration: none;
   padding: 0.3rem 0.6rem;
   border-radius: 8px;
@@ -317,12 +318,12 @@ section {
     }
 
     header {
-        padding-top: 2.5rem;
+        padding-top: 3rem;
     }
 
     header h1 {
         position: fixed;
-        top: 0;
+        top: 12px;
         left: 0;
         width: 100%;
         z-index: 99;
