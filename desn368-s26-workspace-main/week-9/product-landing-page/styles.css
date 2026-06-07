@@ -66,7 +66,7 @@
     align-items: center;
     justify-content: left;
   }
-  #header-img { height: 200x; width: auto; }
+  #header-img { height: 200px; width: auto; }
 
   #nav-bar { display: flex; gap: 30px; align-items: center; }
   .nav-link {
@@ -452,7 +452,7 @@
     .hero-art { order: -1; }
 
     .water-drop { width: 300px !important; }
-    .water-drop--left { top: 0; left }
+    .water-drop--left { top: 0; left: -41px; }
     .water-drop--right { bottom: -20px; right: -30px; transform: rotate(180deg) scaleX(-1); }
   
     .sellers { grid-template-columns: repeat(2, 1fr); }
